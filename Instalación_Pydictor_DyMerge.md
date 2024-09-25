@@ -4,7 +4,7 @@
 
 ### Pydictor:
 
-
+![Foto](https://drive.google.com/drive/folders/16cJ7kr-EQGvz_59Tlv7Kcko0ohBYEo45)
 
 Nos descargaremos los repositorios de Pydictor manualmente desde Github desde el siguiente comando: wget https://github.com/landgrey/pydictor/archive/refs/heads/master.zip
 
