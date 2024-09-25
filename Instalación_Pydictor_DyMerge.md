@@ -31,16 +31,16 @@ Introduciremos el comando “git clone https://github.com/k4m4/dymerge.git ” p
 
 
 
-Crear un Diccionario de Letras y otro de Números con Pydictor:
+## Crear un Diccionario de Letras y otro de Números con Pydictor:
 
-Diccionario de Números:
+### Diccionario de Números:
 
 
 
 
 Para crear el diccionario de números tendremos que estar dentro de la ruta de pydictor - master e introducir el siguiente comando: python3 pydictor.py -base d -len 1 6 -o numeros_nuevo.txt. Utilizamos “-base d” dado que significa “decimal” para poder completar con números.
 
-Diccionario de Letras:
+### Diccionario de Letras:
 
 
 
