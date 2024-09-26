@@ -48,4 +48,9 @@
 
   - Para crear el diccionario de letras tendremos que estar dentro de la ruta de pydictor - master e introducir el siguiente comando: python3 pydictor.py -base L -len 1 6 -o letras.txt. Utilizamos “-base L” dado que significa “Letter” para poder completar con Letras.
 
+### Juntamos ambos diccionarios para trabajar con ellos:
+
+![image](https://github.com/user-attachments/assets/b21bb070-7c44-47b4-bb37-a906264650c7)
+
+- Para crear el diccionario con letras y números tendremos que estar dentro de la ruta de DyMerge y ejecutar el siguiente comando: sudo python2 dymerge.py /home/alvaro/Desktop/diccionario_letras.txt /home/alvaro/Desktop/diccionario_numeros.txt -o /home/alvaro/Desktop/diccionarion.txt
 
