@@ -20,3 +20,15 @@
 
 ## Crear un usuario en SSH
 
+![image](https://github.com/user-attachments/assets/617c7c98-36ea-4216-9d20-8aea309f5250)
+
+  - Crearemos un nuevo usuario con el siguiente comando: sudo adduser usuario_objetivo. Nos pedirá que pongamos los datos relevantes para el nuevo usuario tales como el Nombre, la contraseña y alguno más.
+
+## Conectar al servidor SSH
+
+![image](https://github.com/user-attachments/assets/6af85331-18a6-4bab-82d7-deace517483f)
+
+  - Para conectarnos con el servidor SSH una vez creado el usuario deberemos introducir el siguiente comando: ssh usuario_objetivo@localhost
+
+## Simular un ataque de fuerza bruta utilizando Hydra y tu diccionario
+
