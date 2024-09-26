@@ -32,3 +32,11 @@
 
 ## Simular un ataque de fuerza bruta utilizando Hydra y tu diccionario
 
+![image](https://github.com/user-attachments/assets/a3e66ea0-f649-4c7f-b425-928917998b45)
+
+  - En primer lugar instalaremos Hydra para poder avanzar
+
+![image](https://github.com/user-attachments/assets/36a621f7-94da-4e68-9ba7-9024711c9b8c)
+
+  - Una vez instalada Hydra, procederemos a introducir el siguiente comando para ejecutar el ataque: hydra -l usuario_objetivo -P /home/alvaro/Desktop/diccionarion.txt ssh://localhost
+
