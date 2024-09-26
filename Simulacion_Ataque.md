@@ -40,3 +40,6 @@
 
   - Una vez instalada Hydra, procederemos a introducir el siguiente comando para ejecutar el ataque: hydra -l usuario_objetivo -P /home/alvaro/Desktop/diccionarion.txt ssh://localhost. Con este comando Hydra intentará todas las combinaciones posibles del diccionario para acceder a la cuenta SSH del usuario.
 
+## Revisar los logs del sistema para analizar los intentos de conexión
+
+  - Una vez ejecutado el ataque, revisa los logs para ver los intentos de acceso fallidos: sudo tail -f /var/log/auth.log
