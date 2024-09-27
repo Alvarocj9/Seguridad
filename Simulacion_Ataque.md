@@ -53,3 +53,26 @@
 ![image](https://github.com/user-attachments/assets/da5401f5-5bfd-4a5b-b10e-5bbd60a43dbf)
 
   - Una vez ejecutado el ataque, revisa los logs para ver los intentos de acceso fallidos: sudo tail -f /var/log/auth.log
+
+# Utilizar diccionarion con Hydra para simular un ataque de fuerza bruta con HTTP (formulario web)
+
+## Instalar y configurar DVWA(https://github.com/digininja/DVWA)
+
+![image](https://github.com/user-attachments/assets/1babc0c8-914a-4add-ba15-98981a678d06)
+
+  - Utilizaremos el siguiente comando para clonar el repositorio de DVWA: git clone https://github.com/digininja/DVWA.git
+
+![image](https://github.com/user-attachments/assets/80d9fa37-a061-4400-918f-20e451702dfc)
+
+  - Utilizaremos el siguiente comando para movre DVWA al directorio de tu servidor web: sudo mv DVWA /var/www/html/
+
+![image](https://github.com/user-attachments/assets/c5060166-0dda-4be2-bf96-883b785a686b)
+
+  - Utilizaremos los siguientes comandos para configurar los permisos de los archivos: sudo chown -R www-data:www-data /var/www/html/DVWA sudo chmod -R 755 /var/www/html/DVWA
+
+
+
+
+
+
+
