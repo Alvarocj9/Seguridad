@@ -44,10 +44,12 @@
 
   - Aquí vemos como Hydra ha comenzado el ataque para descifrar la contraseña
 
-![image](https://github.com/user-attachments/assets/da5401f5-5bfd-4a5b-b10e-5bbd60a43dbf)
+![image](https://github.com/user-attachments/assets/29d1e510-f880-4283-8fe7-8f81dc0c148a)
 
   - Aquí vemos como Hydra ha conseguido descifrar la contraseña ya que nos muestra un mensaje con éxito.
 
 ## Revisar los logs del sistema para analizar los intentos de conexión
+
+![image](https://github.com/user-attachments/assets/da5401f5-5bfd-4a5b-b10e-5bbd60a43dbf)
 
   - Una vez ejecutado el ataque, revisa los logs para ver los intentos de acceso fallidos: sudo tail -f /var/log/auth.log
