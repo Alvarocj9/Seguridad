@@ -64,7 +64,7 @@
 
 ![image](https://github.com/user-attachments/assets/80d9fa37-a061-4400-918f-20e451702dfc)
 
-  - Utilizaremos el siguiente comando para movre DVWA al directorio de tu servidor web: sudo mv DVWA /var/www/html/
+  - Utilizaremos el siguiente comando para mover DVWA al directorio de tu servidor web: sudo mv DVWA /var/www/html/
 
 ![image](https://github.com/user-attachments/assets/c5060166-0dda-4be2-bf96-883b785a686b)
 
