@@ -72,9 +72,31 @@
       - sudo chown -R www-data:www-data /var/www/html/DVWA
       - sudo chmod -R 755 /var/www/html/DVWA
 
+![image](https://github.com/user-attachments/assets/09afd09b-786d-45e1-be07-5605c9f618d0)
 
+  - Deberemos crear una Base de Datos para DVWA y un usuario con permisos. Para ello introduciremos los siguientes comandos:
+      - CREATE DATABASE dvwa;
+      - CREATE USER 'dvwauser'@'localhost' IDENTIFIED BY 'password';
+      - GRANT ALL PRIVILEGES ON dvwa.* TO 'dvwauser'@'localhost';
+      - FLUSH PRIVILEGES;
+      - exit;
 
+![image](https://github.com/user-attachments/assets/f29c1cc1-b68c-4c2a-a086-ada2c230da31)
 
+  - Si queremos comprobar que los datos registrados en la Base de Datos están guardados ejecuraremos los siguientes comandos:
+      - SHOW DATABASES;
+      - SELECT User, Host FROM mysql.user;
+      - SHOW GRANTS FOR 'dvwauser'@'localhost';
 
+![image](https://github.com/user-attachments/assets/f831cd44-466e-4cdd-8a3b-8d82bc5e4718)
+
+  - Nos meteremos en el archivo de configuración de DVWA para actualizar algunos parámetros por medio del siguiente comando: sudo nano /var/www/html/dvwa/config
+      - $_DVWA['db_user'] = 'root';
+      - $_DVWA['db_password'] = '';
+      - $_DVWA['db_database'] = 'dvwa';
+
+![image](https://github.com/user-attachments/assets/bcf9dd0d-9467-4327-bd21-b6ba714a8c44)
+
+minuto del video: 8
 
 
