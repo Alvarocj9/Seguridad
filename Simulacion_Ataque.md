@@ -97,6 +97,6 @@
 
 ![image](https://github.com/user-attachments/assets/bcf9dd0d-9467-4327-bd21-b6ba714a8c44)
 
-minuto del video: 8
+minuto del video: 8:https://www.youtube.com/watch?v=WkyDxNJkgQ4
 
 
