@@ -68,7 +68,9 @@
 
 ![image](https://github.com/user-attachments/assets/c5060166-0dda-4be2-bf96-883b785a686b)
 
-  - Utilizaremos los siguientes comandos para configurar los permisos de los archivos: sudo chown -R www-data:www-data /var/www/html/DVWA sudo chmod -R 755 /var/www/html/DVWA
+  - Utilizaremos los siguientes comandos para configurar los permisos de los archivos:
+      - sudo chown -R www-data:www-data /var/www/html/DVWA
+      - sudo chmod -R 755 /var/www/html/DVWA
 
 
 
