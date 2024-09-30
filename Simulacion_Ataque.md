@@ -111,6 +111,25 @@
 
   - Ya tendremos acceso a la Página web de DVWA sobre la que realizar el ataque.
 
+![image](https://github.com/user-attachments/assets/5e12b53e-6956-44dc-bf30-a04d9c64efd2)
+
+  - Nos meteremos en el archivo de configuración de php.ini ubicado en /etc/php/8.2/apache2 para cambiar un parámetro necesario para continuar con el ataque.
+
+![image](https://github.com/user-attachments/assets/6dc36eea-0b10-4259-b206-cb554e1cc90b)
+
+  - Deberemos configurar el parámetro "allow_url_include" y cambiarlo de OFF a ON.
+
+![image](https://github.com/user-attachments/assets/a6bc9e97-8583-4bf6-9821-ea6077f21717)
+
+  - Deberemos ejecutar el siguiente comando para dar permisos de www como usuario de datos de tal forma que pueda funcionar todo correctamente: sudo chown www-data: /var/www/html/DVWA/hackable/uploads
+
+![image](https://github.com/user-attachments/assets/6bbf5f61-fc53-46ad-bf66-9b28a507dd59)
+
+  - De la misma forma introduciremos el siguiente comando para dar permisos al archivo de configuración de DVWA: sudo chown www-data: /var/www/html/DVWA/config
+
+
+
+
 
 
 
