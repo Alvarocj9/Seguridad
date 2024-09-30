@@ -92,13 +92,6 @@
 
   - Crearemos una copia del archivo config.inc.php.dist llamado config.inc.php para poder realizar unas modificaciones lo cual nos perimitirá después abrir la web de la página DVWA y poder editarla para facilitar la respuesta del ataque.
 
-![image](https://github.com/user-attachments/assets/f831cd44-466e-4cdd-8a3b-8d82bc5e4718)
-
-  - Nos meteremos en el archivo de configuración de DVWA para actualizar algunos parámetros por medio del siguiente comando: sudo nano /var/www/html/dvwa/config
-      - $_DVWA['db_user'] = 'root';
-      - $_DVWA['db_password'] = '';
-      - $_DVWA['db_database'] = 'dvwa';
-
 ![image](https://github.com/user-attachments/assets/d3d171e7-b9b5-4986-8dd2-0daaf9435767)
 
   - Una vez esté creada la Base de Datos con los datos que nos piden a cerca de DVWA podremos acceder a la misma introduciendo la contraseña.
