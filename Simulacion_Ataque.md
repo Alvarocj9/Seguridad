@@ -1,4 +1,4 @@
-# Herramienta Hindra para simular 2 ataques por fuerza bruta con diccionarion
+# Herramienta Hydra para simular 2 ataques por fuerza bruta con diccionarion
 
 ## Instalación OpenSSH y configuración del servidor
 
