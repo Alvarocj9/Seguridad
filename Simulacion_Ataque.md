@@ -88,6 +88,10 @@
       - SELECT User, Host FROM mysql.user;
       - SHOW GRANTS FOR 'dvwauser'@'localhost';
 
+![image](https://github.com/user-attachments/assets/3669494d-2005-48b2-9188-f54023d42d6c)
+
+  - Crearemos una copia del archivo config.inc.php.dist llamado config.inc.php para poder realizar unas modificaciones lo cual nos perimitirá después abrir la web de la página DVWA y poder editarla para facilitar la respuesta del ataque.
+
 ![image](https://github.com/user-attachments/assets/f831cd44-466e-4cdd-8a3b-8d82bc5e4718)
 
   - Nos meteremos en el archivo de configuración de DVWA para actualizar algunos parámetros por medio del siguiente comando: sudo nano /var/www/html/dvwa/config
@@ -96,6 +100,8 @@
       - $_DVWA['db_database'] = 'dvwa';
 
 ![image](https://github.com/user-attachments/assets/bcf9dd0d-9467-4327-bd21-b6ba714a8c44)
+
+
 
 minuto del video: 8:https://www.youtube.com/watch?v=WkyDxNJkgQ4
 
