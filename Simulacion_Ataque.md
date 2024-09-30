@@ -99,10 +99,21 @@
       - $_DVWA['db_password'] = '';
       - $_DVWA['db_database'] = 'dvwa';
 
-![image](https://github.com/user-attachments/assets/bcf9dd0d-9467-4327-bd21-b6ba714a8c44)
+![image](https://github.com/user-attachments/assets/d3d171e7-b9b5-4986-8dd2-0daaf9435767)
+
+  - Una vez esté creada la Base de Datos con los datos que nos piden a cerca de DVWA podremos acceder a la misma introduciendo la contraseña.
+
+![image](https://github.com/user-attachments/assets/b0f77d05-491e-443f-84bc-8f046eccec6e)
+
+  - Nos iremos al buscador de Internet y colocaremos la siguiente dirección: http://localhost/DVWA/setup.php para acceder al configurador de la páquina web de DVWA.
+
+![image](https://github.com/user-attachments/assets/9a6388f5-c133-4b60-897d-bb3be334fba2)
+
+  - Ya tendremos acceso a la Página web de DVWA sobre la que realizar el ataque.
 
 
 
-minuto del video: 8:https://www.youtube.com/watch?v=WkyDxNJkgQ4
+
+
 
 
