@@ -127,12 +127,12 @@
 
   - De la misma forma introduciremos el siguiente comando para dar permisos al archivo de configuración de DVWA: sudo chown www-data: /var/www/html/DVWA/config
 
+![image](https://github.com/user-attachments/assets/2e9f3362-7549-429f-be6d-8da481de5335)
 
+  - Nos tenemos que ir a la web de DVWA y acceder con el usuario y la contraseña. Después nos iremos a la pestaña de "CSRF" y cambiaremos la contraseña a 123
 
+![image](https://github.com/user-attachments/assets/4ea94a3d-fbbb-4cc4-aa68-4558b4e02c78)
 
-
-
-
-
+  - Crearemos un nuevo diccionario en el que la última opción sea la contraseña real de DVWA (123 en nuestro caso)
 
 
