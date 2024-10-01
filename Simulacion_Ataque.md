@@ -128,4 +128,6 @@
 
   - Crearemos un nuevo diccionario en el que la última opción sea la contraseña real de DVWA (123 en nuestro caso)
 
+![image](https://github.com/user-attachments/assets/d8046a63-37a9-4870-a92d-979c90da1f0f)
 
+  - Ejecutaremos el ataque mediante el siguiente comando: hydra -l admin -P /home/alvaro/Desktop/diccionario_numeros.txt http-get://127.0.0.1/DVWA/login.php
