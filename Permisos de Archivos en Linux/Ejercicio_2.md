@@ -17,13 +17,10 @@ El equipo de desarrollo necesita colaborar en un subdirectorio dentro de di_rect
 ![image](https://github.com/user-attachments/assets/3179ddaa-dddb-4f07-8266-a4d32ba75fdc)
   - Verifica y muestra los permisos y el grupo propietario del archivo:
 ![image](https://github.com/user-attachments/assets/50a1e949-8a28-4a10-bc68-fce1d5a3a22a)
-Preguntas:
-• ¿Cuál es el grupo propietario del archivo creado por tronko2?
-• ¿Qué ventaja aporte elbil SGID en un entomo de colaboración?
-Ejercicio 3: Gestión de Archivos Temporales con Sticky
-Bit Escenario:
-Se ha creado un directorio temporal compartido entre todos los usuarios del sistema. Necesitas asegurarte de que los usuarios puedan creary modificar sus propios archivos, pero no pueden eliminar o modificar los archivos de otros
-Usuarios.
-Paso 1: Crear un directorio temporal
-Crea un directorio famedo tmp_nen/tap
-Cambia los permisos para que todos los usuarios puedan leer, escribir y ejecutar en el directorie
+## Preguntas:
+  - ¿Cuál es el grupo propietario del archivo creado por tronko2?
+![image](https://github.com/user-attachments/assets/97c5f63f-7511-42b9-8ead-773ff74b9b79)
+  - ¿Qué ventaja aporte elbil SGID en un entomo de colaboración?
+    - Facilita la colaboración: Todos los archivos creados en un directorio con SGID tienen el mismo grupo, lo que garantiza que los miembros del grupo (como devEria2) tengan acceso consistente a los archivos, sin necesidad de cambiar manualmente los permisos o grupos propietarios.
+    - Simplifica la gestión de permisos: El administrador no tiene que preocuparse de que los usuarios creen archivos con grupos propietarios diferentes, lo que podría causar problemas de acceso.
+    - Coherencia: Asegura que las colaboraciones dentro de un equipo mantengan un acceso uniforme, permitiendo que los miembros del grupo trabajen sin barreras innecesarias.
