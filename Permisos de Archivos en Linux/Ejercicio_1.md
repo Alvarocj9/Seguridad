@@ -18,6 +18,6 @@ Imagina que eres el administrador de un equipo de desarrollo con varios usuarios
 ![image](https://github.com/user-attachments/assets/295c988d-0309-4f38-b3fd-cc8deb84aa2d)
 ## Preguntas:
 ### ¿Qué sucede si un usuario fuera del grupo devEria2 intenta acceder al directorio?
-Si un usuario fuera del grupo devEria2 intenta acceder al directorio /di_recto, no podrá hacerlo. Con los permisos actuales (750), los usuarios que no sean el propietario (monon1) o miembros del grupo devEria2 no tienen permiso para leer, escribir ni acceder al directorio.
+  - Si un usuario fuera del grupo devEria2 intenta acceder al directorio /di_recto, no podrá hacerlo. Con los permisos actuales (750), los usuarios que no sean el propietario (monon1) o miembros del grupo devEria2 no tienen permiso para leer, escribir ni acceder al directorio.
 ### ¿Qué sucede si tronko2 intenta modificar un archivo dentro del directorio?
   - Si el usuario sitronko2 intenta modificar un archivo dentro del directorio /di_recto, no podrá hacerlo. Con los permisos actuales, ni siquiera podrá entrar al directorio, ya que no tiene permisos de lectura, escritura ni ejecución en ese directorio.
